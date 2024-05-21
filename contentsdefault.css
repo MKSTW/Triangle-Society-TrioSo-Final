@@ -1,0 +1,88 @@
+
+body    {
+    background-color: rgba(72, 93, 128,0.5);
+}
+.dev-1  {
+    background-color:  rgb(237, 241, 247);
+    height: 400px;
+}
+.dev-tpc h1   {
+    color: darkblue;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 225px;
+}
+.dev-2  {
+    padding-top: 100px;
+}
+.dev-tpc-2 h1  {
+    display: inline;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.back-btn  {
+    width: 130px;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    right: 30px;
+    bottom: 50px;
+    transition: 0.5s;
+}
+.back-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.what {
+    padding-bottom: 80px;
+}
+.what-topic   {
+    width: 1100px;
+    padding-top: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+}
+.what-topic h1{
+    display: inline;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.what-shadow    {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+.what-cntt p {
+    font-size: larger;
+    line-height: 40px;
+    text-align: justify;
+}
+.cntt-lt    {
+    font-size: larger;
+    text-align: start;
+}
+.tabpane-cntt   {
+    padding: 20px;
+}
+@media screen and (max-width:768px) {
+    .what {
+        padding: 20px;
+    }
+    .what-topic     {
+        width: 400px;
+        margin-left: 50px;
+    }
+    .what-topic h1    {
+        display: block;
+        font-size: 35px;
+    }
+    .what p {
+        padding: 20px;
+    }
+    .body   {
+        justify-content: center;
+    }
+    .what-cntt p {
+        padding: 20px;
+    }
+}

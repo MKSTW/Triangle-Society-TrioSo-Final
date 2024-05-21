@@ -1,0 +1,139 @@
+.con-hom    {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+/*First Part*/
+.homepage-1   {
+    height: 660px;
+    padding-top: 250px;
+}
+.lgo img{
+    width: 85%;
+    height: 100%;
+}
+.z-h    {
+    color: darkblue;
+    font-family: cursive;
+    padding-left: 50px;
+}
+.z-h p{
+    font-size: 18px;
+}
+.gs-link    {
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+}
+/*Second Part*/
+.homepage-2 {
+    padding-bottom: 80px;
+}
+.ts-topic   {
+    width: 1100px;
+    padding-top: 50px;
+    line-height: 75px;
+    margin-left: 50px;
+}
+.ts-topic h1{
+    display: inline;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.abow p {
+    font-size: larger;
+    line-height: 40px;
+    text-align: justify;
+}
+.image-1 img    {
+    padding: 10px;
+}
+/*Upcoming */
+.homepage-3 {
+    padding-bottom: 75px;
+}
+.homepage-3 .btn {
+    width: 150px;
+}
+.upevent-topic   {
+    color: darkblue;
+    font-size: 60px;
+    margin-top: 90px;
+}
+.upevent-p  {
+    font-size: 17px;
+    padding: 4px;
+    padding-top: 15px;
+}
+.r-link {
+    color: white;
+    text-decoration: none;
+}
+/*FAQ*/
+.homepage-4 {
+    padding-bottom: 75px;
+}
+.faq-topic  {
+    color: darkblue;
+    font-size: 130px;
+    font-family: cursive;
+}
+.faq-p  {
+    font-size: 17px;
+    padding: 4px;
+    padding-top: 10px;
+}
+/*News*/
+.homepage-5 {
+    background-color: rgb(237, 241, 247);
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.news   {
+    color: darkblue;
+    font-family: cursive;
+}
+#emsub  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.emsssb {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*Responsive*/
+@media screen and (max-width:780px) {
+    .homepage-1 {
+        padding-top: 200px;
+        height: 1300px;
+    }
+    .lgo img    {
+        padding-bottom: 50px;
+    }
+    .z-h    {
+        text-align: center;
+        padding: 0;
+    }
+    .ts-topic     {
+        width: 400px;
+        margin-left: 40px;
+    }
+    .ts-topic h1    {
+        font-size: 35px;
+    }
+    .abow p {
+        padding: 40px;
+    }
+    legend {
+        justify-content: center;
+    }
+    fieldset   {
+        width: 90%;
+    }
+    .homepage-2 {
+        padding: 20px;
+    }
+}
+@media screen and (max-width:640px) {
+    .homepage-1 {
+        height: 1100px;
+    }
+}

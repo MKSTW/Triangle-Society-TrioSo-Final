@@ -1,0 +1,46 @@
+html, body {
+    overflow-x: hidden;
+}
+/*Text-logo*/
+.nav-1      {
+    background-color: #105ca7;
+}
+.navbar-text       {
+    color: white;
+    font-family:cursive;
+    font-size: 25px;
+}
+/*Contents Nav*/
+.nbar {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+.nav-2  {
+    background-color: white;
+}
+.content-1 .nav-link {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+.content-1 .nav-link:hover   {
+    color: blue;
+    text-decoration: underline;
+}
+.logreg .nav-link   {
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logreg .nav-link:hover   {
+    background-color: blue;
+    color: white;
+}
+.nav-3  {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.4);
+}

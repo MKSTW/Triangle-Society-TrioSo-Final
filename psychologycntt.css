@@ -1,0 +1,13 @@
+.psy        {
+    margin-left: 20px;
+}
+.psy-topic h1    {
+    display: inline;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.psy-cntt {
+    color: black;
+    font-size: larger;
+    text-align: justify;
+}
